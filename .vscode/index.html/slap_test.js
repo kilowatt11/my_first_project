@@ -1,12 +1,14 @@
 var health = 100;
 
 function slap(){
-    health -= 1;
-   document.getElementById("Health").innerText = health;
+      health -= 1
+    update(health);
+  /// document.getElementById("Health").innerText = health;
 }
 
 
-function update(){
-    document.getElementById().innerText = ;
+function update(health){
+    
+    document.getElementById("Health").innerText = health;
     
 }

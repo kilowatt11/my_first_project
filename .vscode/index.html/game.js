@@ -6,7 +6,7 @@ function play(playerChoice) {
     //alert(playerChoice);
 
     var computerChoice = Math.random();
-    console.log(computerChoice);
+    
 
     if (computerChoice < 0.34) {
         computerChoice = "rock";
@@ -46,4 +46,5 @@ function play(playerChoice) {
         }
     }
     alert(compare(playerChoice, computerChoice))
+  // document.getElementById("winner").innerHTML = compare(playerChoice, computerChoice)
 }

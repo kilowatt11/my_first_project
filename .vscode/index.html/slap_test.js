@@ -12,3 +12,4 @@ function update(health){
     document.getElementById("Health").innerText = health;
     
 }
+update(health)

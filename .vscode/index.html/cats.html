@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var catNames = ["scooter", "libby","tabby","rusty","lump","daisey","leo","snacks","ripper","Baxter","Frodo","Jack","merry","pippin","harry","ginney","ron","trippy","flash","skinny"];
+        var myCat = false;
+        
+function checkName(newName){
+var newName = prompt("What is the cat's name?");
+    for (var index = 0; index < catNames.length; index++) {
+        if(newName == catNames[index]) {
+            myCat = true;    
+        }
+    } 
+        if (myCat == true) {
+            alert(newName + " You have this cat!")
+                
+            
+        } else {
+            alert(newName + ' Died years ago, if you had this cat at all...');
+        }
+};
+checkName();
+    </script>
+</body>
+
+</html>
